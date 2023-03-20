@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "One Monokai",
+    "window.zoomLevel": 2,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false
+}
