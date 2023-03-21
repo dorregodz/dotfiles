@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 
 osascript -l JavaScript -e "Application('System Events').appearancePreferences.darkMode = false"
+
+# Update Visual Studio Code theme
+cp $DOTFILES_PATH/editors/vscode/settings.json $DOTFILES_PATH/editors/vscode/tmp.json 
+jq -r --indent 4 '."workbench.colorTheme" = "Monokai Light"' $DOTFILES_PATH/editors/vscode/tmp.json  > $DOTFILES_PATH/editors/vscode/settings.json
+rm $DOTFILES_PATH/editors/vscode/tmp.json
