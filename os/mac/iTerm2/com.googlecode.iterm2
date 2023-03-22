@@ -364,6 +364,7 @@
             "Send Code When Idle" = 0;
             Shortcut = "";
             "Silence Bell" = 0;
+            Space = 0;
             "Sync Title" = 0;
             Tags =             (
             );
@@ -376,7 +377,7 @@
             "Use Non-ASCII Font" = 0;
             "Vertical Spacing" = 1;
             "Visual Bell" = 1;
-            "Window Type" = 0;
+            "Window Type" = 12;
             "Working Directory" = "/Users/diegodorrego";
         }
     );
@@ -391,7 +392,7 @@
     NoSyncInstallationId = "B49FD6AE-622A-4000-955F-C7D997253140";
     NoSyncLastOSVersion = "Version 13.2 (Build 22D49)";
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 5;
+    NoSyncLaunchExperienceControllerRunCount = 6;
     NoSyncNextAnnoyanceTime = "701282555.2693959";
     NoSyncRecordedVariables =     {
         0 =         (
