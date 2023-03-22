@@ -6,3 +6,7 @@ osascript -l JavaScript -e "Application('System Events').appearancePreferences.d
 cp $DOTFILES_PATH/editors/vscode/settings.json $DOTFILES_PATH/editors/vscode/tmp.json 
 jq -r --indent 4 '."workbench.colorTheme" = "One Monokai"' $DOTFILES_PATH/editors/vscode/tmp.json  > $DOTFILES_PATH/editors/vscode/settings.json
 rm $DOTFILES_PATH/editors/vscode/tmp.json
+
+# Update iTerm profile to Dark
+echo "Dark" > $DOTFILES_PATH/os/mac/iTerm2/iTerm_profile
+echo -e "\033]50;SetProfile=Dark\a"
