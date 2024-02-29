@@ -7,7 +7,7 @@
 osascript -e 'tell application "System Preferences" to quit'
 
 # Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
+sudo nvram StartupMute=%01
 
 # Show scrollbar only when scrolling
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
